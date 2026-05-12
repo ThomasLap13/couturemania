@@ -1,0 +1,7 @@
+# Couturemania Retouche Express
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /data/
+
+Sitemap: https://www.couturemania.fr/sitemap.xml
