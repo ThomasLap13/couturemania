@@ -1022,7 +1022,9 @@ img { max-width: 100%; height: auto; }
   .about-img-wrapper img { height: 300px; }
   .reviews-global { flex-direction: column; gap: 10px; }
   .reviews-global-info { text-align: center; }
-  .review-card { min-width: 280px; max-width: 280px; padding: 22px; }
+  .reviews-carousel-wrapper { overflow-x: hidden; scroll-snap-type: none; }
+  .reviews-track { flex-direction: column; width: 100%; }
+  .review-card { min-width: 100%; max-width: 100%; padding: 22px; flex-shrink: 1; }
   .location-card { padding: 24px; }
   .cta-banner h2 { font-size: 1.8rem; }
   .btn-cta-outline { margin-left: 0; margin-top: 10px; }
